@@ -1,0 +1,65 @@
+# -------------- Node.js ------------------
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de build
+dist/
+build/
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------- Vue / Vite ------------------
+# Cache do Vite
+.vite/
+
+# Output do Vue CLI (se usar)
+.vuepress/dist/
+.public/
+
+# -------------- Environment ------------------
+# Variáveis de ambiente (API keys!)
+.env
+.env.*.local
+
+# -------------- Editor / OS ------------------
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Editor backups
+*~
+*.swp
+*.tmp
+
+# -------------- Python (caso ainda existam scripts) -----
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# -------------- Outros ------------------
+# Arquivos gerados
+*.log
+*.cache
+*.seed
