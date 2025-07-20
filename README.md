@@ -36,6 +36,8 @@ npm start
 ```
 
 The backend listens on http://localhost:5000 by default.
+
+
 Note: The API key is intentionally exposed in the .env file for testing purposes. You don’t need to hide it in this demo repo—just follow the steps, run the backend and frontend, and test away!
 
 ## Printscreen: 
